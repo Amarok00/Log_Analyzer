@@ -14,5 +14,3 @@ Testing
 To run unit tests, run:
 
 `$ python3 tests.py`
-# Log_Analyzer
-# Log_Analyzer
