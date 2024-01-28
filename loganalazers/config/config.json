@@ -1,0 +1,7 @@
+{
+    "REPORT_SIZE": 1000,
+    "REPORT_DIR": "./reports",
+    "LOG_DIR": "./log",
+    "PARSING_ERROR_LIMIT_PERC": 10,
+    "PROGRESS_INFORM_MODE": 1
+}

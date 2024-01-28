@@ -1,0 +1,28 @@
+[2023.11.16 18:09:17] I Analyzer starts its work.
+[2023.11.16 18:09:17] E In the ./log directory is nothing to analyze.
+[2023.11.16 18:09:52] I Analyzer starts its work.
+[2023.11.16 18:09:52] I Analyzer will look at "./log/nginx-access-ui.log-20170630" file.
+[2023.11.16 18:09:52] I Analyzer starts analysis.
+[2023.11.16 18:14:23] I Analyzer starts its work.
+[2023.11.16 18:14:23] I Analyzer will look at "./log/nginx-access-ui.log-20170630" file.
+[2023.11.16 18:14:23] I Analyzer starts analysis.
+[2023.11.16 18:20:07] I Analyzer ended analysis.
+Processed 2613774 logs.
+Summary log request time is 1927549.054.
+Parsing errors 88.
+[2023.11.16 18:20:07] E Analysis aborted.
+Traceback (most recent call last):
+  File "/home/dmitriy/Документы/Python/Lessons/Otus/python_profissional/homework_test_python/test_1/loganalazers/log_analyzer.py", line 246, in main
+    writereport(analyzeresult, reportpath, config)
+  File "/home/dmitriy/Документы/Python/Lessons/Otus/python_profissional/homework_test_python/test_1/loganalazers/log_analyzer.py", line 213, in writereport
+    with open("report.html", mode="rt", encoding="utf_8") as reporttemplate:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'report.html'
+[2023.11.16 18:22:41] I Analyzer starts its work.
+[2023.11.16 18:22:41] I Analyzer will look at "./log/nginx-access-ui.log-20170630" file.
+[2023.11.16 18:22:41] I Analyzer starts analysis.
+[2023.11.16 18:28:43] I Analyzer ended analysis.
+Processed 2613774 logs.
+Summary log request time is 1927549.054.
+Parsing errors 88.
+[2023.11.16 18:28:43] I Analyzer created the report ./reports/report-2017.06.30.html. Analyzer ended its work.
