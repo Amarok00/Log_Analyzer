@@ -1,0 +1,4 @@
+[PYLINT]
+disable=W1401,C0103,W1404,W0621,R1726,W0127,C0206,W1201,C0209,W0702
+[pylint.files]
+ignore=test_lg.py
